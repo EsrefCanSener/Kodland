@@ -7,8 +7,8 @@ meme_dict={
     "AGGRO": "agresifleşmek/sinirlenmek"
 }
 while True:
-word = input("kelimeyi girin:")
-if word in meme_dict.keys():
-   print(meme_dict[word])
-else:
-   print("KELİMENİN KARŞILIĞI YOK")
+    word = input("kelimeyi girin:")
+    if word in meme_dict.keys():
+       print(meme_dict[word])
+    else:
+       print("KELİMENİN KARŞILIĞI YOK")
